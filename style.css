@@ -1,0 +1,13 @@
+.featureCard:hover .featureCardBox {
+    background-image: url(./image/features-wave.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom 1rem;
+}
+.featureCard:hover .featureCardSVG {
+    filter: drop-shadow(rgba(202, 202, 202, 0.25) 0px 2px 22px);
+    stroke-opacity: 0 !important;
+}
+.featureCard:hover .featureCardIcon {
+    background-image: linear-gradient(30.55deg, rgb(106, 199, 255) 11.05%, rgb(20, 138, 255) 90.09%);
+    box-shadow: rgba(202, 202, 202, 0.25) 0px 2px 22px;
+}
